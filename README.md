@@ -31,4 +31,9 @@ Often during pen tests you may obtain a shell without having tty, yet wish to in
 
 * !sh
 
-**TESTING**
+# Making shell better or stable 
+**eg**
+* python3 -c 'import pty; pty.spawn("/bin/bash")';export TERM=xterm
+* press ctrl + z on keyboard {background the current job on linux}
+* stty raw -echo;fg [This is make your shell better for working]
+
